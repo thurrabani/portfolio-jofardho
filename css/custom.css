@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    color: white;
+    background: #c4c4c4;
+    height: 80px;
+}
+
+.container {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .logo {
+    margin-right: 10px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: white;
+    float: right;
+    margin-left: 20px;
+    font-size: 20px;
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: solid;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar .navbar-nav .nav-stick {
+    border: 1px white solid;
+    margin-left: 20px;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+}
+
+.btn.btn-success {
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.btn.social-media {
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+}
+
+.btn-link {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.home .profile-name {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(#51f4fe, #c84dbc);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.home .profile-name .nama {
+    width: 400px;
+    margin: auto;
+    padding-top: 30%;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.home .profile-name .name-line {
+    border-radius: 2px;
+    height: 5px;
+    width: 400px;
+    background-image: linear-gradient(#af52f9, #faa2a2);
+    margin-left: 30px;
+}
+
+.home .profile-name .skill {
+    width: 400px;
+    margin: auto;
+    margin-left: 30px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.home .text {
+    margin-top: 10px;
+    font-size: x-large;
+}
+
+.project .judul {
+    font-size: 60px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.project .text {
+    text-align: center;
+    font-size: 40px;
+    margin-right: 30px;
+}
+
+.project .card {
+    background: linear-gradient(#e0f1bd, #57e075);
+    padding-bottom: 10px;
+    box-shadow: 10px 4px 5px rgb(160, 160, 160);
+}
+
+.project .card .card-body {
+    width: 400px;
+    align-self: flex-end;
+    padding-bottom: 80px;
+}
+
+.project .card .card-body .card-title {
+    font-size: 40px;
+}
+
+.project .card .card-body .title-line {
+    height: 12px;
+    width: 150px;
+    background: white;
+    border-radius: 5px;
+    margin: 25px 0 40px 10px;
+}
+
+.project .card .card-body .card-text {
+    font-size: 20px;
+}
+
+.project .card .img {
+    max-width: 100%;
+    width: 700px;
+}
+
+.project .text-tools {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.project .pic-tools {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 60px;
+}
+
+.contact .d-flex {
+    height: 200px;
+}
+
+.contact .img-profile {
+    transform: translateY(-30px);
+    margin-right: auto;
+    margin-left: 40px;
+}
+
+.contact .text {
+    align-self: center;
+    margin-right: 30px;
+}
+
+.contact .btn {
+    align-self: center;
+    margin-right: 60px;
+}
+
+.about .judul {
+    font-size: 60px;
+    margin-left: 80px;
+    margin-bottom: 60px;
+}
+
+.about .img-about {
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.about .text .about-intro {
+    font-weight: 700;
+}
+
+.about .text .text1 {
+    font-size: 30px;
+    text-indent: 4ch;
+}
+
+.about .text .text2 {
+    font-size: 30px;
+    text-indent: 4ch;
+}
+
+.email .card {
+    background: #E5E5E5;
+    padding-bottom: 10px;
+    box-shadow: 0 0 15px rgb(160, 160, 160);
+    margin: auto;
+    margin-bottom: 80px;
+    width: 48rem;
+    height: 32rem;
+}
+
+.email .card .card-body {
+    align-self: center;
+    padding-bottom: 20px;
+}
+
+.card .judul {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.email .label {
+    width: 100px;
+    padding: 0px;
+}
+
+.email .form-control {
+    width: 300px;
+    margin-right: auto;
+}
+
+.email .msg {
+    margin-bottom: 10px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.email .submit {
+    width: 80px;
+    height: 30px;
+    background: rgb(11, 209, 11);
+    color: white;
+    font-weight: 500;
+    border: green;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.email .reset {
+    width: 80px;
+    height: 30px;
+    background: rgb(255, 27, 27);
+    color: white;
+    font-weight: 500;
+    border: red;
+    border-radius: 5px;
+}
+
+
+/* modal */
+
+.project .nav-link {
+    border: none;
+    background: none;
+}
+
+.project .nav-link:focus {
+    outline: none;
+}
+
+.project .about-text2 {
+    text-indent: 4ch;
+    margin-top: 20px;
+}
+
+.project .problem-text,
+.project .affinity-text,
+.project .wireframe-text,
+.project .color-text,
+.project .popup-text,
+.project .mockup-text,
+.project .result-text {
+    margin-top: 10px;
+    text-indent: 4ch;
+}
